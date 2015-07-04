@@ -1,0 +1,25 @@
+
+=======
+
+Introduction
+
+This README v1.0 (June, 2005) for the v1.0 sentence polarity dataset comes
+from the URL
+http://www.cs.cornell.edu/people/pabo/movie-review-data .
+
+=======
+
+Citation Info 
+
+This data was first used in Bo Pang and Lillian Lee,
+``Seeing stars: Exploiting class relationships for sentiment categorization
+with respect to rating scales.'', Proceedings of the ACL, 2005.
+  
+@InProceedings{Pang+Lee:05a,
+  author =       {Bo Pang and Lillian Lee},
+  title =        {Seeing stars: Exploiting class relationships for sentiment
+                  categorization with respect to rating scales},
+  booktitle =    {Proceedings of the ACL},
+  year =         2005
+}
+
