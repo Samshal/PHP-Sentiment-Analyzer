@@ -68,7 +68,7 @@
 			if (!in_array($testDataType, $this->arrTypes))
 			{
 				throw new \Exception('Invalid Sentiment Type Encountered: A Sentiment Can Only Be Negative or Positive');
-				return;
+				return false;
 			}
 			$amountTracker = 0;
 			$testData = fopen($testDataLocation, "r");
@@ -96,6 +96,7 @@
 					}
 				}
 			}
+			return true;
 		}
 
 		public function analyzeSentence($sentence)
