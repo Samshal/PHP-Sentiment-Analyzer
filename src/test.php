@@ -65,8 +65,8 @@
 		$sentimentAnalysisOfSentence2 = $sat->analyzeSentence($sentence2);
 
 		$resultofAnalyzingSentence2 = $sentimentAnalysisOfSentence2['sentiment'];
-		$probabilityofSentence2BeingPositive = $sentimentAnalysisOfSentence1['accuracy']['positivity'];
-		$probabilityofSentence2BeingNegative = $sentimentAnalysisOfSentence1['accuracy']['negativity'];
+		$probabilityofSentence2BeingPositive = $sentimentAnalysisOfSentence2['accuracy']['positivity'];
+		$probabilityofSentence2BeingNegative = $sentimentAnalysisOfSentence2['accuracy']['negativity'];
 
 
 
