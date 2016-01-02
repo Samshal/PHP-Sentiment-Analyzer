@@ -1,6 +1,6 @@
 
 <div id="test">
-	<h3>Enter A Sentence Here To Determine If Sounds Positive, Negative or Neutral</h3>
+	<h3>Enter A Sentence Here To Determine If it Sounds Positive, Negative or Neutral</h3>
 	<form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method='post'>
 		<input type = 'text' id = 'sentence'name='sentence' placeholder='Enter Text'/>
 		<input type = 'submit' id='goSentence'/>
