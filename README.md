@@ -51,8 +51,8 @@ negative or neutral sentiment. it returns an array that looks like this:
 
 An example is shown below:
 
-`$sentence1 = 'while the performances are often engaging , this loose collection of largely improvised numbers would probably have worked better as a one-hour tv documentary . ';
-$sentence2 = 'edited and shot with a syncopated style mimicking the work of his subjects , pray turns the idea of the documentary on its head , making it rousing , invigorating fun lacking any mtv puffery . ';
+`$sentence1 = 'while the performances are often engaging , this loose collection of largely improvised numbers would probably have worked better as a one-hour tv documentary . ';`
+`$sentence2 = 'edited and shot with a syncopated style mimicking the work of his subjects , pray turns the idea of the documentary on its head , making it rousing , invigorating fun lacking any mtv puffery . ';`
 
 	$sentimentAnalysisOfSentence1 = $sat->analyzeSentence($sentence1);
 
