@@ -1,12 +1,12 @@
 
 <div id="test">
-	<h3>Enter A Sentence Here To Determine If Sounds Positive, Negative or Neutral</h3>
+	<h3>Enter A Sentence Here To Determine If it Sounds Positive, Negative or Neutral</h3>
 	<form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method='post'>
 		<input type = 'text' id = 'sentence'name='sentence' placeholder='Enter Text'/>
 		<input type = 'submit' id='goSentence'/>
 	</form>
 	<h1>OR</h1>
-	<h3>Enter The Location of text file to analyze its</h3>
+	<h3>Enter The Location of a text file to analyze its content</h3>
 	<form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method='post'>
 		<input type = 'text' id = 'location' name='location' placeholder = 'Copy and Paste File Path Here' />
 		<input type='submit' id='goLocation'/>
